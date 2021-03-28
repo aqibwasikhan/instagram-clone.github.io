@@ -1,6 +1,33 @@
-body{
- background-color: #789;
-}
+
+
 h1{
-    color: blue;
+    color: whitesmoke;
+}
+.box1{
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin: 0px;
+    padding: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.box2{
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    margin: 0;
+    padding: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.box{
+ display: flex;
 }

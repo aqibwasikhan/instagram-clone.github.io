@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto' , sans-serif;
+}
+body{
+    background: #fafafa;
+    font-size: 14px;
+}
+.wrapper .header{
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+}
+.wrapper .header .top,
+.wrapper .header .signup
+{
+    background: #fff;
+    border: 2px solid #e6e6e6;
+    border-radius: 1px;
+    padding: 40px 40px 20px;
+}
+.wrapper .header .logo img{
+    display: block;
+    margin: 0 auto 35px;
+}
+.wrapper .header .form .input_feild{
+   margin-bottom: 5px;
+}
+.wrapper .header .form .input_feild .input{
+    width: 100%;
+    background: #fafafa;
+    border: 1px #efefef;
+    font-size: 12px;
+    border-radius: 3px;
+    color: #262626;
+    padding: 10px;
+}
+.wrapper .header .form .input_feild .input:focus{
+    border: 1px solid #b2bbb2;
+}
+.wrapper .header .form .btn{
+    margin: 10px 0;
+    background: #3897f0;
+    border: 1px solid #3897f0;
+    border-radius: 4px;
+    text-align: center;
+    padding: 5px;
+}
+.wrapper .header .form .btn a{
+    color: #fff
+    display block
+}
+.wrapper .header .or {
+    display: flex;
+    height: 15px;
+    margin: 15px 0 20px;
+    justify-content: space-between;
+    align-items: center
+}
+.wrapper .header .or .line {
+    width: 105px;
+    height: 2px;
+    background: #efefef;
+
+}
+.wrapper .header .or p {
+    color: #999;
+    font-size: 12px;
+}
+.wrapper .header .diff .fb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper .header .diff .fb img {
+    width: 16px;
+    height: 16px;
+}
+.wrapper .header .diff .fb p {
+    color: #385185;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.wrapper .header .diff .forgot {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+.wrapper .header .diff .forgot a {
+    color: #003569;
+}
+.wrapper .header .signup {
+    margin: 10px 0 20px;
+    padding: 25px 40px;
+    text-align: center;
+    color: #262626;
+}
+.wrapper .header .signup a {
+    color: #3897f0;
+}
+.wrapper .header .apps{
+    text-align: center;
+    color: #262626;
+    display: block;
+    padding: 0px;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-align: center;
+
+    
+}
+.wrapper .header .apps p{
+    margin-bottom: 20px;
+}
+.wrapper .header .apps a img{
+     width: 135px;
+     height: 40px;
+     margin: 0 5px;
+
+}
+.wrapper .header .apps .icon
+{
+    display: block;
+    padding: 0px;
+    margin-bottom: 10px;
+    text-align: justify;
+    text-align: center;
+}
+.wrapper .footer {
+    max-width: 835px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    word-spacing: 10px;
+    display: flex;
+    padding: 2px;
+    text-align: center;
+}
+.wrapper .footer .links ul li {
+    display: inline-block;
+    margin: right;
+   
+    
+}
+.wrapper .footer .links ul li a {
+    font-size: 12px;
+    color: #003569;
+    display: block;
+    padding: 1px;
+    text-align: justify;
+    
+}
+.wrapper .footer .links {
+    display: block;
+    padding: 1px;
+    text-align: justify;
+}
+.wrapper .copyright {
+    color: #999;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    margin: bottom 20px;
+    padding: 2px;
+
+}
